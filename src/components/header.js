@@ -1,0 +1,36 @@
+import React from "react";
+import './styles/header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import logo5 from './images/logo5.jpg'
+
+const Header = () => {
+  return (
+    <div>
+    <div className="header">
+    <div class="overlay"></div>
+      <nav className="navigation">
+        <span>
+        <img src={logo5}
+      alt="Your Alt Text" />
+        </span>
+        <div className="login">
+          <button>Sell Up</button>
+          <button>Login</button>
+        </div>
+      </nav>
+      <div className="sign-form">
+      <form action="">
+      <div className="search-bar">
+      <input type="text" placeholder="Search" />
+      <FontAwesomeIcon icon={faLocationDot} className="search-icon" />
+    </div>
+        <button className="search-btn">search</button>
+      </form>
+      </div>
+    </div>
+    </div>
+  );
+};
+
+export default Header;
