@@ -10,7 +10,7 @@ const Header = () => {
     <div className="header">
     <div class="overlay"></div>
       <nav className="navigation">
-        <span>
+        <span className="nav-logo">
         <img src={logo5}
       alt="Your Alt Text" />
         </span>

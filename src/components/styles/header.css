@@ -4,12 +4,10 @@
     border: 2px solid black;
     background-image: url(../images/image.webp);
     background-size: cover; 
-    background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center center;
   }
-
 
 
   .navigation {
@@ -21,7 +19,7 @@
     
   }
 
-  span {
+  .nav-logo {
     width: 60px;
     border-radius: 60%;
     background: rosybrown;
@@ -29,7 +27,7 @@
     margin-left: 3px;
   }
 
-  span img {
+  .nav-logo img {
     width: 50px;
     border-radius: 50%;
    margin-left: 4px;
