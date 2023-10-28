@@ -5,6 +5,7 @@ import Choice from './components/Choice';
 import Header from './components/Headers';
 import Restaurants from './components/Restaurants';
 import Fooddetail from './components/Fooddetail';
+import Aboutpage from './components/Aboutpage';
 
 function App() {
  
@@ -13,20 +14,28 @@ function App() {
     <section>
  <Header />
  </section>
- <div className='country-list'>
+ <section className='country-list'>
   <CountryList />
- </div>
- <div className='restaurantss'>
+ </section>
+ <section className='restaurantss'>
   <Choice />
-  <section>
+  <div>
   <Restaurants />
-    </section>
+    </div>
+ </section>
 
- </div>
-
- <div>
+ <section>
   <Fooddetail />
- </div>
+ </section>
+
+ <section>
+  <Aboutpage />
+ </section>
+
+ <footer>
+<hr />
+<p>All right reserved @Afroeats 2023</p>
+ </footer>
 
  </div>
  )
