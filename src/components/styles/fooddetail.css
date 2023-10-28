@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+.food-detail {
+  margin-left: 1rem;
+}
+
+.detail {
+  
+}
+
+.detail .sell {
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+}
+
+.detail .text-detail {
+  font-size: 17px;
+}
+
+
+.detail .detail-cook {
+  font-size: 15px;
+  margin-top: 0;
+
+}
+
+.detail .chef {
+  width: 150px;
+  height: 100px;
+}
+
+.food-img {
+  margin-top: 1rem;
+}
+
+.food-img img {
+  width: 90%;
+  height: auto;
+  border-radius: 10%;
+  margin-left: 0.8rem;
+}
+
+}

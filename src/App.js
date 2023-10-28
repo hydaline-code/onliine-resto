@@ -1,17 +1,33 @@
 
 import './App.css';
-import Header from './components/Header';
 import CountryList from './components/CountryList';
+import Choice from './components/Choice';
+import Header from './components/Headers';
+import Restaurants from './components/Restaurants';
+import Fooddetail from './components/Fooddetail';
 
 function App() {
+ 
  return (
-  <div>
+  <div className='App'>
     <section>
  <Header />
  </section>
  <div className='country-list'>
   <CountryList />
  </div>
+ <div className='restaurantss'>
+  <Choice />
+  <section>
+  <Restaurants />
+    </section>
+
+ </div>
+
+ <div>
+  <Fooddetail />
+ </div>
+
  </div>
  )
 }

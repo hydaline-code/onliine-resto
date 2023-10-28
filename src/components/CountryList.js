@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react"; // react hooks
 import './styles/CountryList.css';
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+
+
 
 const CountryList = () => {
   // Define the initial state
@@ -59,8 +60,15 @@ const CountryList = () => {
          )
          )}
           </Slider>
+          
+          <div>
+        
+      
+          </div>
         </ul>
+        
       )}
+      
     </div>
   );
   

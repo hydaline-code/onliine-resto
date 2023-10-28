@@ -1,0 +1,75 @@
+@media (max-width: 767px) {
+.title {
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+
+
+
+.title button {
+  width: 30%;
+  height: 40px;
+  margin: 2% 2% 0 0;
+}
+
+.location {
+  margin-top: 0.5rem;
+}
+
+.location img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.meal-name {
+  font-weight: bold;
+}
+
+.location .name {
+  color: green;
+}
+
+.resto-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.kitchen-stars {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  
+}
+
+.location .icon {
+ font-weight: 500;
+  }
+  
+  /* Target odd .icon elements within .location */
+  .location:nth-child(odd) .icon {
+    color: rgb(243, 161, 39);
+  }
+
+.location:nth-child(even) .icon {
+  color: green;
+}
+
+/* Target odd .icon elements within .location */
+.location:nth-child(odd) .icon {
+  color: rgb(243, 161, 39);
+}
+
+.time{
+  font-weight: 500;
+}
+
+.time .icon2 {
+  color: rgb(243, 161, 39);
+
+}
+}

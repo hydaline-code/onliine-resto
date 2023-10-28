@@ -1,8 +1,18 @@
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
+}
 
+.App {
+  max-width: 100%;
+    height: auto;
+    overflow-x: hidden;
 }
 
 .country-list {
   border: 2px solid black;
+}
+
+.restaurantss {
+  margin-left: 1.2rem;
 }

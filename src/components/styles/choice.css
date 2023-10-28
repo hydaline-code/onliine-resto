@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+.meals {
+margin-bottom: 1em;
+
+}
+
+.meals-choice {
+  position: relative;
+  height: 200px;
+ 
+}
+.meals-choice img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 5px;
+ 
+}
+
+.meals-choice h6 {
+  font-size: 1.2em;
+  position: absolute;
+  top: 50%;
+ margin-left: 1.5rem;
+ color: rgba(28, 222, 116, 0.907);
+}
+
+.meals-mind{
+  display: flex;
+  justify-content: space-between;
+  align-content: baseline;
+
+}
+.meals-mind button {
+  height: 39px;
+  width: 38%;
+  margin-right: 0.5em;
+}
+
+.meals-mind p {
+ margin-left: 2px;
+ font-weight: bold;
+}
+
+}

@@ -1,7 +1,6 @@
 @media (max-width: 767px) {
 
   .header {
-    border: 2px solid black;
     background-image: url(../images/image.webp);
     background-size: cover; 
     background-repeat: no-repeat;
@@ -35,11 +34,11 @@
   
 .sign-form {
   width: 100%;
-  max-width: 300px; /* Set a maximum width for the form */
+  max-width: 300px; 
   height: auto;
   background-color: white;
-  border: 1px solid black;
-  margin: 30% auto; /* Adjust the top margin to center the form vertically */
+
+  margin: 30% auto; 
   padding: 20px; 
   box-sizing: border-box;
 }
