@@ -46,14 +46,7 @@ const Restaurants = () => {
       location:'South Africa',
       stars:faStarHalf,
       numberofStars:'3.5',
-    },
-    {
-      image: meal1,
-      location:'Nigeria',
-      stars:faStar,
-      numberofStars:'5.0',
-      time:'40mins',
-    },
+    },,
     {
       image: meal2,
       location:'Sierra Lone',
@@ -63,14 +56,7 @@ const Restaurants = () => {
     },
     {
       image: meal3,
-      location:'Nigeria',
-      stars:faStarHalf,
-      numberofStars:'4.0',
-      time:'30mins',
-    },
-    {
-      image: meal3,
-      location:'rwanda',
+      location:'Rwanda',
       stars:faStar,
       numberofStars:'5.1',
       time:'35mins',

@@ -25,22 +25,6 @@
   font-size: 17px;
 }
 
-.detail .chef {
-  max-width: 50%;
-  height: auto;
-  margin-top: 2rem;
-}
-
-.food-img {
-  margin-top: 1rem;
-}
-
-.food-img img {
-  width: 100%;
-   height: auto;
-   border-radius: 10%;
- }
-
 @media (max-width: 767px) {
 
   .detail {
@@ -51,12 +35,28 @@
     position: relative;
   }
 
+  .detail .chef {
+    max-width: 50%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
 .detail .text-detail {
   font-size: 17px;
   position: absolute;
-  top: calc(70% - 10vh); 
+  top: calc(55% - 9vh); 
 }
 
+.food-img {
+  margin-top: 1rem;
+  width: auto;
+}
+
+.food-img img {
+  width: 100%;
+   height: auto;
+   border-radius: 10%;
+ }
 
 }
 
@@ -64,29 +64,44 @@
 
   .food-detail {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     margin-top: 2.5rem;
- 
+    
   }
-
 
 .detail .detail-cook {
   font-size: 15px;
   margin-top: 0;
 }
 
-
-
-
-.food-img {
-  width: 300px;
-  height: 300px;
+.detail {
+  width: 50%;
+  margin-top: 3rem;
 }
 
+.detail .chef {
+  max-width: 25%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.detail .detail-cook {
+  width: 500px;
+}
+
+.detail .sell {
+  width: 30%;
+  margin-top: 1rem;
+}
+
+.food-img {
+  max-width: 50%;
+  height: auto;
+}
 
 .food-img img {
- max-width: 100%;
- height: auto;
- object-fit: cover;
+  max-width:70%;
+  height: 100%;
+  border-radius: 70px;
  }
 }
