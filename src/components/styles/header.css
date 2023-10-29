@@ -1,30 +1,72 @@
+
+.header {
+  background-image: url(../images/image.webp);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+}
+
+.login {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0.7rem;
+ }
+ 
+ .login button {
+   height: 35px;
+   border-radius: 3px;
+   border: none;
+   margin-top: 0.3rem;
+ }
+ 
+ .login button:nth-child(1) {
+   color: rgb(57, 107, 57);
+   background-color: transparent;
+   border: 1px solid rgb(57, 107, 57);
+ }
+ 
+ .login button:nth-child(2) {
+   background: rgb(57, 107, 57);
+   color: white;
+ }
+  
+ .navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.nav-logo {
+  width: 60px;
+  background: rgb(57, 107, 57);
+  border-radius: 60%;
+  padding: 0 2px;
+  margin-left: 3px;
+}
+
+.title-header {
+  color: white;
+  margin: 0 25%;
+}
+
+.title-header p {
+  font-weight: lighter;
+}
+
+form button {
+  background: rgb(57, 107, 57);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  height: 40px;
+}
+
 @media (max-width: 767px) {
-
-  .header {
-    background-image: url(../images/image.webp);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center center;
-  }
-
-
-  .navigation {
-    position: relative;
-    z-index: 5;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2%;
-    
-  }
-
-  .nav-logo {
-    width: 60px;
-    background: rgb(57, 107, 57);
-    border-radius: 60%;
-    padding: 0 2px;
-    margin-left: 3px;
-  }
 
   .nav-logo img {
     width: 50px;
@@ -32,10 +74,18 @@
    margin-left: 4px;
   }
 
-  .title-header {
-    color: white;
-    margin: 0 25%;
+  .login button {
+    max-width: 100%;
   }
+
+  .login:nth-child(2) {
+    margin-right: 5px;
+  }
+
+  .title-header {
+    margin: 0 20%;
+  }
+
   .title-header h3 {
    width: 350px;
   }
@@ -61,12 +111,6 @@
   width: 100%;
 }
 
-form button {
-  background: rgb(57, 107, 57);
-  border: none;
-  color: white;
-  border-radius: 5px;
-}
 
 input {
   flex: 1;
@@ -74,61 +118,14 @@ input {
   padding: 5px;
 }
 
-.login {
- display: flex;
- gap: 0.5rem;
 }
 
-.login button {
-  width: 100%;
-  height: 35px;
-  border-radius: 3px;
-  border: none;
-  margin-top: 0.3rem;
-}
+@media (min-width:768px) {
 
-.login button:nth-child(1) {
-  color: rgb(57, 107, 57);
-  background-color: transparent;
-  border: 1px solid rgb(57, 107, 57);
-}
-
-.login button:nth-child(2) {
-  background: rgb(57, 107, 57);
-  color: white;
-}
-
-.login:nth-child(2) {
-  margin-right: 5px;
-}
-
-.search-btn {
-  width: 100%;
-  padding: 5px;
-  margin: 0 auto;
-  height: 40px;
-}
-
-}
-
-.header {
-  background-image: url(../images/image.webp);
-  background-size: cover; 
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: center center;
-}
-
-
-.navigation {
-  position: relative;
-  z-index: 5;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2%;
+  .header {
+    margin-top: 0;
+  }
   
-}
-
 .nav-logo {
   width: 60px;
   border-radius: 60%;
@@ -145,28 +142,30 @@ input {
 
 
 .title-header {
-  color: white;
-  margin: 0 25%;
+  margin: 0 30%;
 }
+
 .title-header h3 {
-  max-width: 300px;
+  width: 600px;
   font-weight: bold;
+  
 }
 
-.title-header p {
-
-  font-weight: lighter;
+.login button:nth-child(2) {
+  margin-right: 2rem;
 }
 
 .sign-form {
-width: 100%;
-max-width: 300px; 
-height: auto;
+max-width: 70%;
 background-color: white;
-
-margin: 30% auto; 
-padding: 20px; 
 box-sizing: border-box;
+margin:10%  25%;
+border-radius: 5px;
+}
+ 
+.sign-form form {
+  display: flex;
+  padding: 3%;
 }
 
 .search-bar {
@@ -174,9 +173,8 @@ display: flex;
 align-items: center;
 border: 1px solid #ccc;
 border-radius: 5px;
-margin: 5% auto;
 padding: 5px;
-width: 100%;
+width: 95%;
 }
 
 input {
@@ -184,7 +182,6 @@ flex: 1;
 border: none;
 padding: 5px;
 }
-
 
 .login {
 display: flex;
@@ -197,13 +194,8 @@ width: 80px;
 height: 35px;
 }
 
-.login:nth-child(2) {
-margin-right: 5px;
+.search-btn {
+width: 30%;
 }
 
-.search-btn {
-width: 100%;
-padding: 5px;
-margin: 0 auto;
-height: 40px;
 }

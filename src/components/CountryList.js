@@ -40,6 +40,14 @@ const CountryList = () => {
     slidesToShow: 3,
     slidesToScroll: 4,
   };
+
+  const largeScreenSettings = {
+    slidesToShow: 11, // Adjust the number of slides to show as per your design
+    slidesToScroll: 4, // Number of slides to scroll
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+  };
   
   return (
     
@@ -48,7 +56,7 @@ const CountryList = () => {
         <p>Loading...</p>
       ) : (
         <ul className="countries">
-          <Slider {...settings}>
+          <Slider {...window.innerWidth > 768 ? largeScreenSettings : settings} className="slider">
        {countries.map( (country) => (
             <li key={country.name.common} >
               <span className="countries-info">

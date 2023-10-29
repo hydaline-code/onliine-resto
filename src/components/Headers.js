@@ -6,9 +6,7 @@ import logo5 from './images/logo5.jpg'
 
 const Header = () => {
   return (
-    <div>
     <div className="header">
-    <div class="overlay"></div>
       <nav className="navigation">
         <span className="nav-logo">
         <img src={logo5}
@@ -33,7 +31,7 @@ const Header = () => {
       </form>
       </div>
     </div>
-    </div>
+   
   );
 };
 

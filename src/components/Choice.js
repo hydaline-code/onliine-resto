@@ -33,6 +33,14 @@ const Choice = () => {
     slidesToShow: 2,
     slidesToScroll: 2,
   };
+
+  const largeScreenSettings = {
+    slidesToShow: 4, 
+    slidesToScroll: 4, 
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+  };
   
   return(
 <div>
@@ -41,7 +49,7 @@ const Choice = () => {
         <p>What's on your mind?</p>
         <button>See more</button>
       </span>
-    <Slider {...settings}>
+      <Slider {...window.innerWidth > 768 ? largeScreenSettings : settings} className="slider">
       {data.map((item,index)=>(
         <div key={index} className="meals-choice">
             <img src={item.image} alt="" />

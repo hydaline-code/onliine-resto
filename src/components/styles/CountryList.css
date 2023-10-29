@@ -22,13 +22,13 @@ margin-right: 5px;
 
 }
 
+@media (min-width: 767px) {
 .countries {
   list-style: none;
 }
 
 .countries img {
   width: 50%;
- 
   border-radius: 50%;
 }
 
@@ -40,6 +40,7 @@ margin-right: 5px;
 
 h5 {
 position: absolute;
-top: 25%;
+top: 40%;
 margin-right: 5px;
+}
 }

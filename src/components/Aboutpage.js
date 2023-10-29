@@ -15,18 +15,22 @@ const Aboutpage =() =>{
     </span>
   </form>
   <div className="about-links">
+    
+    <div className="abt-link">
   <div className="contact-links-text">
     <h1>AfroEats</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consectetur!
     </p>
   </div>
+  
     <ul  className="contact-links-social" >
       <li>Follow Us: </li>
       <li><a href=""><FontAwesomeIcon icon={faFacebook} size="1x" /></a></li>
       <li><a href=""><FontAwesomeIcon icon={faInstagram} size="1x" /></a></li>
       <li><a href=""><FontAwesomeIcon icon={faTwitter} size="1x" /></a></li>
     </ul>
-
+    </div>
+    <div className="abtlinks">
     <ul className="menu">
     <li>Links</li>
     <li><a href="#"></a> Home</li>
@@ -40,6 +44,7 @@ const Aboutpage =() =>{
     <li><a href=""><FontAwesomeIcon icon={faPhone} /></a> Phone</li>
     <li><a href=""><FontAwesomeIcon icon={faEnvelope} /></a> Email</li>
     </ul>
+    </div>
     </div>
     </section>
   )

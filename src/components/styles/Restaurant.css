@@ -1,9 +1,3 @@
-@media (max-width: 767px) {
-.title {
-  display: flex;
-  justify-content: space-between;
-}
-
 .title button {
   width: 30%;
   height: 40px;
@@ -18,6 +12,53 @@
   font-weight: 550;
   font-size: 20px;
 }
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kitchen-stars {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.location .name {
+  color: green;
+}
+
+
+
+.meal-name {
+  font-weight: bold;
+}
+
+.location .icon {
+ font-weight: 500;
+  }
+  
+  .location:nth-child(odd) .icon {
+    color: rgb(243, 161, 39);
+  }
+
+.location:nth-child(even) .icon {
+  color: green;
+}
+
+.location:nth-child(odd) .icon {
+  color: rgb(243, 161, 39);
+}
+
+.time{
+  font-weight: 500;
+}
+
+.time .icon2 {
+  color: rgb(243, 161, 39);
+}
+
+@media (max-width: 767px) {
 
 .resto-container {
   margin-top: 1rem;
@@ -32,67 +73,28 @@
   
 }
 
+.locationimg {
+  width: 150px;
+  height: 150px;
+}
+
 .location img {
- max-width: 100%;
- height: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
  border-radius: 10px;
 }
 
-.location .name {
-  color: green;
-}
-
-.meal-name {
-  font-weight: bold;
-}
-
-.kitchen-stars {
-  display: flex;
-  gap: 1rem;
-}
-
-.location .icon {
- font-weight: 500;
-  }
-  
-  .location:nth-child(odd) .icon {
-    color: rgb(243, 161, 39);
-  }
-
-.location:nth-child(even) .icon {
-  color: green;
-}
-
-.location:nth-child(odd) .icon {
-  color: rgb(243, 161, 39);
-}
-
-.time{
-  font-weight: 500;
-}
-
-.time .icon2 {
-  color: rgb(243, 161, 39);
-}
 
 }
 
 
 @media (min-width: 768px) {
 
-.title {
-  display: flex;
-  justify-content: space-between;
-}
 
 .title button {
-  width: 30%;
-  height: 40px;
-  margin: 2% 2% 0 0;
-  border: solid 1.5px rgb(241, 237, 30);
-  border-radius: 10px;
-  background: transparent;
-  color:  rgb(241, 237, 30);
+  width: 10%;
+  
 }
 
 .title p {
@@ -104,10 +106,16 @@
   margin-top: 0.5rem;
 }
 
+.locationimg {
+  width: 280px;
+  height: 280px;
+}
+
 .location img {
-  width: 150px;
-  height: 150px;
-  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .meal-name {
@@ -121,38 +129,8 @@
 .resto-container {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(4,1fr);
 }
 
-.kitchen-stars {
 
-  display: flex;
-  justify-content: space-between;
-  padding: 3px;
-  
-}
-
-.location .icon {
- font-weight: 500;
-  }
-  
-  .location:nth-child(odd) .icon {
-    color: rgb(243, 161, 39);
-  }
-
-.location:nth-child(even) .icon {
-  color: green;
-}
-
-.location:nth-child(odd) .icon {
-  color: rgb(243, 161, 39);
-}
-
-.time{
-  font-weight: 500;
-}
-
-.time .icon2 {
-  color: rgb(243, 161, 39);
-}
 }

@@ -93,7 +93,9 @@ const Restaurants = () => {
         <div className="resto-container">
           {data.map((restaurants,index)=>(
             <div key={index} className="location">
-                  <img src={restaurants.image} alt={restaurants.name} />
+              <div className="locationimg">
+                <img src={restaurants.image} alt={restaurants.name} />
+                </div>
                   <p className="meal-name">Lorem ipsum dolor </p>
                   <p className="name">
                 {restaurants.location}
