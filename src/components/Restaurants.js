@@ -48,7 +48,7 @@ const Restaurants = () => {
       numberofStars:'3.5',
     },
     {
-      image: meal5,
+      image: meal1,
       location:'Nigeria',
       stars:faStar,
       numberofStars:'5.0',
@@ -62,21 +62,21 @@ const Restaurants = () => {
       time:'25mins',
     },
     {
-      image: meal1,
+      image: meal3,
       location:'Nigeria',
       stars:faStarHalf,
       numberofStars:'4.0',
       time:'30mins',
     },
     {
-      image: meal4,
+      image: meal3,
       location:'rwanda',
       stars:faStar,
       numberofStars:'5.1',
       time:'35mins',
     },
     {
-      image: meal2,
+      image: meal1,
       location:'Sierra Lone',
       stars:faStar,
       numberofStars:'5.2',
@@ -87,7 +87,7 @@ const Restaurants = () => {
   return(
 <div className="restaurants">
 <div className="title">
-        <h4>Popular Restaurants <span><FontAwesomeIcon icon={faStar} /></span></h4>
+        <p>Popular Restaurants <span><FontAwesomeIcon icon={faStar} /></span></p>
         <button>See more</button>
         </div>
         <div className="resto-container">
@@ -96,9 +96,7 @@ const Restaurants = () => {
                   <img src={restaurants.image} alt={restaurants.name} />
                   <p className="meal-name">Lorem ipsum dolor </p>
                   <p className="name">
-                  {restaurants.location.length > 14
-                ? restaurants.location.substring(0, 14) + "..."
-                : restaurants.location}
+                {restaurants.location}
             </p>
                <div className="kitchen-stars">
                 <p className="icon"><span className="stars"><FontAwesomeIcon icon={restaurants.stars} className="icon" /></span>{restaurants.numberofStars}</p>

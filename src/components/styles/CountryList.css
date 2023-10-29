@@ -4,7 +4,7 @@
 }
 
 .countries img {
-  width: 50px;
+  width: 50%;
   border-radius: 50%;
 }
 
@@ -20,4 +20,26 @@ top: 25%;
 margin-right: 5px;
 }
 
+}
+
+.countries {
+  list-style: none;
+}
+
+.countries img {
+  width: 50%;
+ 
+  border-radius: 50%;
+}
+
+.countries-info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+h5 {
+position: absolute;
+top: 25%;
+margin-right: 5px;
 }

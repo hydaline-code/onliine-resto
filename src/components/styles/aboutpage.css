@@ -1,0 +1,194 @@
+@media (max-width: 767px) {
+.about{
+  margin-top: 1.5rem;
+}
+
+.about ul {
+  list-style: none;
+  text-align: left;
+}
+
+.about-links {
+  padding: 1rem;
+  background: rgb(20, 20, 20);
+  color: white;
+}
+
+.search-resto {
+  background: rgba(44, 97, 44, 0.991);
+  padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.search-resto h6 {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+ 
+}
+
+.search-resto h6:nth-child(1) {
+  margin-right: 0.2rem;
+}
+
+.search-resto span {
+  margin: 0  0 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-resto span input {
+  border: solid 1px white;
+  border-radius: 7px;
+  background: none;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.search-resto span button {
+  background: rgb(223, 230, 22);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.about .contact-links-text {
+  text-align: left;
+  margin-left: 2.5rem;
+}
+.contact-links-social   {
+  display: flex;
+}
+
+.contact-links-social li  {
+  margin-right: 0.7rem;
+}
+
+.contact-links-social li a {
+  color: white;
+}
+
+.contact-links-text p {
+  min-width: 200px;
+}
+
+.menu li {
+  margin-top: 0.3rem;
+}
+
+.menu li:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu-contact li  {
+  margin-top: 0.3rem;
+}
+
+.menu-contact li a {
+  color: white;
+}
+.menu-contact li:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+}
+}
+
+@media (min-width: 768px) {
+.about{
+  margin-top: 1.5rem;
+  border: solid 1px red;
+}
+
+.about ul {
+  list-style: none;
+  text-align: left;
+}
+
+.about-links {
+  padding: 1rem;
+  background: rgb(20, 20, 20);
+  color: white;
+}
+
+.search-resto {
+  background: rgba(44, 97, 44, 0.991);
+  padding: 1rem;
+ display: flex;
+ flex-direction: column;
+}
+
+.search-resto h6 {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+ 
+}
+
+.search-resto h6:nth-child(1) {
+  margin-right: 0.2rem;
+}
+
+.search-resto span {
+  margin: 0  0 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-resto span input {
+  border: solid 1px white;
+  border-radius: 7px;
+  background: none;
+}
+
+.search-resto span button {
+  background: rgb(251, 176, 35);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.about .contact-links-text {
+  text-align: left;
+  margin-left: 2.5rem;
+}
+.contact-links-social   {
+  display: flex;
+}
+
+.contact-links-social li  {
+  margin-right: 0.7rem;
+}
+
+.contact-links-social li a {
+  color: white;
+}
+
+.contact-links-text p {
+  min-width: 200px;
+}
+
+.menu li {
+  margin-top: 0.3rem;
+}
+
+.menu li:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu-contact li  {
+  margin-top: 0.3rem;
+}
+
+.menu-contact li a {
+  color: white;
+}
+.menu-contact li:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+}
+}

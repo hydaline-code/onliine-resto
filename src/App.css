@@ -9,10 +9,17 @@ body {
     overflow-x: hidden;
 }
 
-.country-list {
-  border: 2px solid black;
-}
-
 .restaurantss {
   margin-left: 1.2rem;
+}
+
+hr {
+  color: aliceblue;
+}
+footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  background: rgb(20, 20, 20);
+  padding: 5px;
 }

@@ -19,10 +19,14 @@ const Header = () => {
           <button>Login</button>
         </div>
       </nav>
+      <div className="title-header">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        <p>Lorem, ipsum dolor ipsum dolo.</p>
+      </div>
       <div className="sign-form">
       <form action="">
       <div className="search-bar">
-      <input type="text" placeholder="Search" />
+      <input type="text" placeholder="Search a restaurant" />
       <FontAwesomeIcon icon={faLocationDot} className="search-icon" />
     </div>
         <button className="search-btn">search</button>

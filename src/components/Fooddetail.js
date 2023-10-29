@@ -1,5 +1,5 @@
 import React from "react";
-import chefcook1 from './images/chefcook1.jpg'
+import chef1 from './images/chef1.jpg'
 import ice from './images/ice.jpg'
 import './styles/fooddetail.css'
 
@@ -7,7 +7,7 @@ const Fooddetail =()=>{
   return (
     <div className="food-detail">
       <div className="detail">
-        <img src={chefcook1} alt="chefpic" className="chef" />
+        <img src={chef1} alt="chefpic" className="chef" />
         <h6 className="text-detail">Lorem ipsum, dolor </h6>
         <p className="detail-cook">  Lorem ipsum dolor sit amet consectetur, 
         adipisicing elit. Error libero commodi sed quasi minima,
