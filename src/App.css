@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.App {
+  max-width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.restaurantss {
+  margin-left: 1.2rem;
+}
+
+hr {
+  color: aliceblue;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  background: rgb(20, 20, 20);
+  padding: 5px;
+}

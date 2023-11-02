@@ -1,0 +1,94 @@
+@media (min-width: 375px) and (max-width: 500px) {
+  .detail .text-detail {
+    top: calc(55% - 9vh) !important;
+  }
+}
+
+.food-detail {
+  margin: 1rem 1rem;
+}
+
+.detail .detail-cook {
+  font-size: 15px;
+  margin-top: 2.2rem;
+}
+
+.detail .sell {
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  color: white;
+  background: rgb(242, 242, 66);
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+@media (max-width: 767px) {
+  .detail {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    margin-top: 2.5rem;
+    position: relative;
+  }
+
+  .detail .chef {
+    max-width: 50%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .detail .text-detail {
+    font-size: 17px;
+    position: absolute;
+    top: calc(55% - 9vh);
+  }
+
+  .food-img {
+    margin-top: 1rem;
+    width: auto;
+  }
+
+  .food-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .food-detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+
+  .detail .detail-cook {
+    font-size: 15px;
+    margin-top: 0;
+    width: 500px;
+  }
+
+  .detail {
+    width: 50%;
+    margin-top: 3rem;
+  }
+
+  .detail .chef {
+    max-width: 25%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .food-img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .food-img img {
+    max-width: 70%;
+    height: 100%;
+    border-radius: 70px;
+  }
+}

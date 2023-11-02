@@ -1,0 +1,193 @@
+
+.header {
+  background-image: url(../images/image.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+}
+
+.login {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0.7rem;
+}
+
+form button {
+  background: rgb(57, 107, 57);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+.login button {
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 0.3rem;
+}
+
+.login button:nth-child(1) {
+  color: rgb(57, 107, 57);
+  background-color: transparent;
+  border: 1px solid rgb(57, 107, 57);
+}
+
+.login button:nth-child(2) {
+  background: rgb(57, 107, 57);
+  color: white;
+}
+
+.navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.nav-logo {
+  width: 60px;
+  background: rgb(57, 107, 57);
+  border-radius: 60%;
+  padding: 0 2px;
+  margin-left: 3px;
+}
+
+.title-header {
+  color: white;
+  margin: 0 25%;
+}
+
+.title-header p {
+  font-weight: lighter;
+}
+
+@media (max-width: 767px) {
+  .nav-logo img {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4px;
+  }
+
+  .login button {
+    max-width: 100%;
+  }
+
+  .login:nth-child(2) {
+    margin-right: 5px;
+  }
+
+  .title-header {
+    margin: 0 20%;
+  }
+
+  .title-header h3 {
+    width: 350px;
+  }
+
+  .sign-form {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30% auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5% auto;
+    padding: 5px;
+    width: 100%;
+  }
+
+  input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-top: 0;
+  }
+
+  .nav-logo {
+    width: 60px;
+    border-radius: 60%;
+    background: rgb(57, 107, 57);
+    padding: 0 2px;
+    margin-left: 3px;
+  }
+
+  .nav-logo img {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4px;
+  }
+
+  .title-header {
+    margin: 0 30%;
+  }
+
+  .title-header h3 {
+    width: 600px;
+    font-weight: bold;
+  }
+
+  .login button {
+    width: 80px;
+    height: 35px;
+  }
+
+  .login button:nth-child(2) {
+    margin-right: 2rem;
+  }
+
+  .sign-form {
+    max-width: 70%;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 10%  25%;
+    border-radius: 5px;
+  }
+
+  .sign-form form {
+    display: flex;
+    padding: 3%;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+  }
+
+  input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+  }
+
+  .login {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .search-btn {
+    width: 30%;
+  }
+}
