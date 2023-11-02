@@ -1,12 +1,12 @@
 import React from 'react';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 import fruit from './images/fruit.jpg';
 import strawberry from './images/strawberry.jpg';
 import meat from './images/meat.jpg';
 import pizza from './images/pizza.jpg';
 import './styles/choice.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
 
 const Choice = () => {
   const data = [
@@ -46,12 +46,12 @@ const Choice = () => {
     <div>
       <div className="meals">
         <span className="meals-mind">
-          <p>What's on your mind?</p>
-          <button>See more</button>
+          <p>What&rsquo;s on your mind?</p>
+          <button type="button">See more</button>
         </span>
         <Slider {...window.innerWidth > 768 ? largeScreenSettings : settings} className="slider">
-          {data.map((item, index) => (
-            <div key={index} className="meals-choice">
+          {data.map((item) => (
+            <div key={item.id} className="meals-choice">
               <img src={item.image} alt="" />
               <h6 className="meal-text">{item.name}</h6>
             </div>

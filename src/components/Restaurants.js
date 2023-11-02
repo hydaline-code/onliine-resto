@@ -43,7 +43,7 @@ const Restaurants = () => {
       location: 'South Africa',
       stars: faStarHalf,
       numberofStars: '3.5',
-    },,
+    },
     {
       image: meal2,
       location: 'Sierra Lone',

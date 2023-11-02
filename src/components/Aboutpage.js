@@ -15,7 +15,7 @@ const Aboutpage = () => (
       </h6>
       <span>
         <input type="text" placeholder="Enter your restaurant" />
-        <button>Search</button>
+        <button type="submit">Search</button>
       </span>
     </form>
     <div className="about-links">
@@ -30,53 +30,42 @@ const Aboutpage = () => (
 
         <ul className="contact-links-social">
           <li>Follow Us: </li>
-          <li><a href=""><FontAwesomeIcon icon={faFacebook} size="1x" /></a></li>
-          <li><a href=""><FontAwesomeIcon icon={faInstagram} size="1x" /></a></li>
-          <li><a href=""><FontAwesomeIcon icon={faTwitter} size="1x" /></a></li>
+          <li><FontAwesomeIcon icon={faFacebook} size="1x" /></li>
+          <li><FontAwesomeIcon icon={faInstagram} size="1x" /></li>
+          <li><FontAwesomeIcon icon={faTwitter} size="1x" /></li>
         </ul>
       </div>
       <div className="abtlinks">
         <ul className="menu">
           <li>Links</li>
           <li>
-            <a href="#" />
-            {' '}
             Home
           </li>
           <li>
-            {' '}
-            <a href="#" />
-            {' '}
             Menu
           </li>
           <li>
-            {' '}
-            <a href="#" />
-            {' '}
             Category
           </li>
           <li>
-            {' '}
-            <a href="" />
-            {' '}
             AboutUs
           </li>
         </ul>
         <ul className="menu-contact">
           <li> Contact Us</li>
           <li>
-            <a href=""><FontAwesomeIcon icon={faLocationDot} /></a>
-            {' '}
+            <FontAwesomeIcon icon={faLocationDot} />
+
             Location
           </li>
           <li>
-            <a href=""><FontAwesomeIcon icon={faPhone} /></a>
-            {' '}
+            <FontAwesomeIcon icon={faPhone} />
+
             Phone
           </li>
           <li>
-            <a href=""><FontAwesomeIcon icon={faEnvelope} /></a>
-            {' '}
+            <FontAwesomeIcon icon={faEnvelope} />
+
             Email
           </li>
         </ul>

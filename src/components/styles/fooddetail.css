@@ -67,6 +67,7 @@
   .detail .detail-cook {
     font-size: 15px;
     margin-top: 0;
+    width: 500px;
   }
 
   .detail {
@@ -78,10 +79,6 @@
     max-width: 25%;
     height: auto;
     margin-top: 2rem;
-  }
-
-  .detail .detail-cook {
-    width: 500px;
   }
 
   .food-img {
